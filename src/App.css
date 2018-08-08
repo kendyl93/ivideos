@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+  overflow: hidden;
+}
+p,h1,h2,h3,h4,h5,h6{
+  color: #373f51;
+}
+p{
+  font-size: 1.5em;
+}
+main > div{
+  padding: 30px 15px;
+}
+
+.App-logo {
+  height: 40px;
+  width: auto;
+}
+@media (min-width: 420px){
+  .App-logo {
+    height: 80px;
+  }
+}
+
+.App-header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-main{
+
+}
+.marginBottom{
+  margin-bottom: 30px;
+}
+#mainHeader{
+  margin-top: 0;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.list-group-item{
+  -webkit-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+.list-group-item:hover{
+  cursor: pointer;
+  background-color: #f1f1f1;
+}
+footer{
+  padding: 60px 0;
+  background-color: #dadada;
+}
+.list-group-item:first-child,
+.list-group-item:last-child{
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.video-detail{
+  border: solid 1px #dadada;
+}
+.video-detail .details{
+  padding: 15px;
+}
+.bg-img{
+  position: absolute;
+  opacity: .05;
+  z-index: -1;
+}
+
+.bg-bootstrap{
+  bottom: -50px;
+  left: -300px;
+  height: 600px;
+  width: auto;
+  opacity: .03;
+}
+.bg-react{
+  top: -100px;
+  right: -500px;
+  height: 800px;
+  width: auto;
+}
+.relative{
+  position: relative;
+}
+@media (max-width: 420px){
+  .list_videos_wrapper{
+    margin-top: 30px;
+  }
+}
